@@ -1,0 +1,60 @@
+$text-direction: rtl !default;
+$clip:polygon(40% 0, 100% 0, 100% 100%, 0 100%);
+$clip-form: polygon(90% 100%, -1% 100%, 0 0, 100% 0);
+$clip-contact: polygon(0% 0, 70% 0, 100% 100%, 0% 100%);
+$clip-about: polygon(0% 0, 70% 0, 100% 100%, 0% 100%);
+$clip-about-shape: polygon(45% 0, 100% 0, 100% 100%, 0% 100%);
+$rotate:rotate(0deg);
+
+body,
+html,
+header,
+footer {
+  text-align: right;
+  direction: rtl;
+  font-size: 15px;
+}
+
+.services .services-card:hover .overlay {
+  right: -32% !important;
+  left: 100% !important;
+}
+
+.testimonials .testi-card {
+  -webkit-transform: perspective(475px) rotateY(15deg) !important;
+  transform: perspective(475px) rotateY(15deg) !important;
+}
+
+.testi-card p {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .services .carousel-control-next {
+    right: 0% !important;
+  }
+
+  .services .carousel-control-prev {
+    right: 85% !important;
+  }
+
+  .navbar-nav {
+    .active {
+      .nav-link::after {
+        right: -30px;
+      }
+    }
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 18px;
+}
+
+.services-card p {
+  font-size: 15px !important;
+}
+
+@import "../scss/direction-controller";
+
+@import "../theme/style.scss";

@@ -1,0 +1,638 @@
+<!-- slider section -->
+<section class="slider" id="home">
+  <canvas id="slider-canvas"></canvas>
+  <div class="container">
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselId" data-slide-to="1"></li>
+        <li data-target="#carouselId" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="view w-100">
+            <img class="d-block w-100 h-100" src="assets/images/slider1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-caption">
+            <h6 class="m-auto pb-2  fadeInDown" data--duration="" data--delay="">
+              {{'slider.opportunitiesDev' | translate }}</h6>
+            <h5 class="m-auto pb-2  fadeInRight" data--duration="" data--delay="">{{'slider.businessGrow' | translate }}
+            </h5>
+            <h6 class="m-auto pb-2  fadeInUp" data--duration="" data--delay="">{{'slider.businessSol' | translate }}
+            </h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="view w-100">
+            <img class="d-block w-100 h-100" src="assets/images/slider2.jpg" alt="First slide">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="m-auto pb-2">{{'slider.bulidApp' | translate }}<span class="primary-color-text">
+                {{'slider.faster' | translate }}</span></h3>
+            <h3 class="m-auto pb-2">{{'slider.businessIncrease' | translate }}<span class="primary-color-text">
+                {{'slider.visibility' | translate }}</span></h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="view w-100">
+            <img class="d-block w-100 h-100" src="assets/images/slider3.jpg" alt="First slide">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="m-auto pb-2 black-color-text">{{'slider.mobileAppDev' | translate }}</h3>
+            <p class="black-color-text">{{'slider.mobileDesc' | translate }}
+            </p>
+            <a href="#contact"
+              class="primary-color-bg text-white border-0 fs-12 px-3 py-2">{{'slider.contactBtn' | translate }}</a>
+          </div>
+        </div>
+      </div>
+      <!-- <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a> -->
+    </div>
+  </div>
+</section>
+
+<!-- about section -->
+<section class="about anime" id="about">
+  <!-- svg animations -->
+  <!-- <canvas id="about-canvas"></canvas> -->
+  <!-- <div class="cube">
+  </div>
+  <div class="cube">
+  </div>
+  <div class="cube">
+  </div>
+  <div class="cube">
+  </div>
+  <div class="cube">
+  </div>
+  <div class="cube">
+  </div> -->
+
+  <div class="container px-0 text-center position-relative" data--duration="3s" data--delay="0.3s">
+    <h4 class="font-weight-bold mb-0 primary-color-text">{{ 'about.Why IT-Cores' | translate }}</h4>
+    <h1 class="it-cores-overlay font-weight-bold mb-0">IT-Cores</h1>
+    <p class="fs-14 w-50 mx-auto section-title px-3">{{ 'about.whyDesc' | translate }}</p>
+
+    <div class="row mx-0 pt-3">
+      <div class="col-lg-4 col-md-6 col-12 px-0 mb-3 about-card fadeInLeft wow py-4" data-wow-delay=".1s">
+        <i class="icon-quality about-icons"></i>
+        <h6 class="mb-0 py-3">{{ 'about.highQuality' | translate }}</h6>
+        <p class="fs-13 text-center black-color-text px-3">{{ 'about.qualityDesc' | translate }}.</p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 px-0 mb-3 about-card fadeInLeft wow py-4" data-wow-delay=".1s">
+        <i class="icon-secret about-icons"></i>
+        <h6 class="mb-0 py-3">{{ 'about.confidentiality' | translate }}</h6>
+        <p class="fs-13 text-center black-color-text px-3">{{ 'about.confidentialityDesc' | translate }}</p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 px-0 mb-3 about-card fadeInLeft wow py-4" data-wow-delay=".1s">
+        <i class="icon-Knowledge about-icons"></i>
+        <h6 class="mb-0 py-3">{{ 'about.Knowledge' | translate }}</h6>
+        <p class="fs-13 text-center black-color-text px-3">{{ 'about.KnowledgeDesc' | translate }}</p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 px-0 mb-3 about-card fadeInLeft wow py-4" data-wow-delay=".1s">
+        <i class="icon-onTime about-icons"></i>
+        <h6 class="mb-0 py-3">{{ 'about.talentedTeam' | translate }}</h6>
+        <p class="fs-13 text-center black-color-text px-3">{{ 'about.teamDesc' | translate }}.</p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 px-0 mb-3 about-card fadeInLeft wow py-4" data-wow-delay=".1s">
+        <i class="icon-team about-icons"></i>
+        <h6 class="mb-0 py-3">{{ 'about.Budget' | translate }}</h6>
+        <p class="fs-13 text-center black-color-text px-3">{{ 'about.budgetDesc' | translate }}</p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 px-0 mb-3 about-card fadeInLeft wow py-4" data-wow-delay=".1s">
+        <i class="icon-onTime about-icons"></i>
+        <h6 class="mb-0 py-3">{{ 'about.Relationships' | translate }}</h6>
+        <p class="fs-13 text-center black-color-text px-3">{{ 'about.RelationshipsDesc' | translate }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- services section -->
+<section class="services fadeInDown wow" data--duration="4s" data--delay="0.3s" id="services">
+  <div class="container px-0 text-center">
+    <h4 class="font-weight-bold mb-0 primary-color-text">{{ 'services.ourServices' | translate }}</h4>
+    <h1 class="it-cores-overlay font-weight-bold mb-0">IT-Cores</h1>
+    <p class="fs-14 w-50 mx-auto section-title px-3">{{ 'services.servicesDesc' | translate }}.</p>
+    <div class="container-fluid text-center my-3">
+      <div class="row mx-auto my-auto">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+
+              <div class="row">
+                <div class="col-lg-4 col-md-6 services-card">
+                  <img class="img-fluid" src="assets/images/service1.png" alt="" width="100%" height="200">
+                  <div class="overlay"></div>
+                  <div class="carousel-caption py-0">
+                    <h4>{{ 'services.ERPSystems' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.erpDesc' | translate }}</p>
+                  </div>
+                  <div class="carousel-caption-hover py-0 px-3 d-none">
+                    <h4>{{ 'services.ERPSystems' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.erpDesc1' | translate }}.</p>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.erpDesc2' | translate }}</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 clearfix d-none d-md-block services-card">
+                  <img class="img-fluid" src="assets/images/web-dev.jpg" alt="" width="100%" height="200">
+                  <div class="overlay"></div>
+                  <div class="carousel-caption py-0">
+                    <h4>{{ 'services.WebDev' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.webdevDesc' | translate }}</p>
+                  </div>
+                  <div class="carousel-caption-hover py-0 px-3 d-none">
+                    <h4>{{ 'services.WebDev' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.webdevDesc' | translate }}</p>
+
+                    <p class="fs-13 mx-3 text-center">{{ 'services.webdevDesc1' | translate }}</p>
+
+                    <p class="fs-13 mx-3 text-center">{{ 'services.webdevDesc2' | translate }}</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 clearfix d-none d-md-block services-card">
+                  <img class="img-fluid" src="assets/images/mobile-app.png" alt="" width="100%" height="200">
+                  <div class="overlay"></div>
+                  <div class="carousel-caption py-0">
+                    <h4>{{ 'services.MobileDev' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.MobileDevDesc' | translate }}</p>
+                  </div>
+                  <div class="carousel-caption-hover py-0 px-3 d-none">
+                    <h4>{{ 'services.MobileDev' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.MobileDevDesc1' | translate }}</p>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.MobileDevDesc2' | translate }}</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!--/.First slide-->
+
+            <!--Second slide-->
+
+            <!--/.Second slide-->
+            <div class="carousel-item">
+
+              <div class="row">
+                <div class="col-lg-4 col-md-6 services-card">
+                  <img class="img-fluid" src="assets/images/hosting.png" alt="" width="100%" height="200">
+                  <div class="overlay"></div>
+                  <div class="carousel-caption py-0">
+                    <h4>{{ 'services.hosting' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.hostingDesc' | translate }}</p>
+                  </div>
+                  <div class="carousel-caption-hover py-0 px-3 d-none">
+                    <h4>{{ 'services.hosting' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.hostingDesc1' | translate }}.</p>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.hostingDesc2' | translate }}</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 clearfix d-none d-md-block services-card">
+                  <img class="img-fluid" src="assets/images/backup.jpg" alt="" width="100%" height="200">
+                  <div class="overlay"></div>
+                  <div class="carousel-caption py-0">
+                    <h4>{{ 'services.dataBackup' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.dataBackupDesc' | translate }}</p>
+                  </div>
+                  <div class="carousel-caption-hover py-0 px-3 d-none">
+                    <h4>{{ 'services.dataBackup' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.dataBackupDesc1' | translate }}</p>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.dataBackupDesc2' | translate }}</p>
+
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 clearfix d-none d-md-block services-card">
+                  <img class="img-fluid" src="assets/images/data-recovery.jpg" alt="" width="100%" height="200">
+                  <div class="overlay"></div>
+                  <div class="carousel-caption py-0">
+                    <h4>{{ 'services.dataRecovery' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.dataRecoveryDesc' | translate }}</p>
+                  </div>
+                  <div class="carousel-caption-hover py-0 px-3 d-none">
+                    <h4>{{ 'services.dataRecovery' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.dataRecoveryDesc1' | translate }}</p>
+                    <p class="fs-13 mx-3 text-center">{{ 'services.dataRecoveryDesc2' | translate }}.</p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!--Third slide-->
+            <!-- <div class="carousel-item">
+
+              <div class="row">
+                <div class="col-lg-4 col-md-6 services-card">
+                  <img class="img-fluid" src="assets/images/service1.png" alt="" width="100%" height="200">
+                  <div class="overlay"></div>
+                  <div class="carousel-caption py-0">
+                    <h4>{{ 'services.ERPSystems' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                  </div>
+                  <div class="carousel-caption-hover py-0 px-3 d-none">
+                    <h4>{{ 'services.ERPSystems' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 clearfix d-none d-md-block services-card">
+                  <img class="img-fluid" src="assets/images/service1.png" alt="" width="100%" height="200">
+                  <div class="overlay"></div>
+                  <div class="carousel-caption py-0">
+                    <h4>{{ 'services.WebDev' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                  </div>
+                  <div class="carousel-caption-hover py-0 px-3 d-none">
+                    <h4>{{ 'services.WebDev' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 clearfix d-none d-md-block services-card">
+                  <img class="img-fluid" src="assets/images/service2.png" alt="" width="100%" height="200">
+                  <div class="overlay"></div>
+                  <div class="carousel-caption py-0">
+                    <h4>{{ 'services.MobileDev' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                  </div>
+                  <div class="carousel-caption-hover py-0 px-3 d-none">
+                    <h4>{{ 'services.MobileDev' | translate }}</h4>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                    <p class="fs-13 mx-3 text-left">We excel at our services by using various methodologies that will
+                      not only
+                      provide you
+                      with speediness but will also...</p>
+                  </div>
+                </div>
+              </div>
+
+            </div> -->
+            <!--/.Third slide-->
+
+          </div>
+          <!--/.Slides-->
+          <a class="carousel-control-prev" data-target="#multi-item-example" role="button" data-slide="prev">
+            <span class="la la-angle-left black-color-text slider-arrows" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" data-target="#multi-item-example" role="button" data-slide="next">
+            <span class="la la-angle-right black-color-text slider-arrows" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!--/.Carousel Wrapper-->
+      </div>
+    </div>
+
+
+
+
+  </div>
+</section>
+
+<!-- our work section -->
+<!-- <section class="our-work area fadeInUp " data--duration="5s" data--delay="0.3s" id="our-work">
+  <ul class="shapes-up">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <ul class="shapes-down">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <div class="container text-center">
+    <h4 class="font-weight-bold mb-0 primary-color-text">{{ 'ourWork.ourWork' | translate }}</h4>
+    <h1 class="it-cores-overlay font-weight-bold mb-0">IT-Cores</h1>
+    <p class="fs-14 w-50 mx-auto">{{ 'ourWork.ourWorkDesc' | translate }}</p>
+    <div class="row mx-0">
+      <div class="col-lg-6 col-12">
+        <ul class="nav nav-tabs border-0 d-inline-flex pb-4" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active fs-16 px-5 black-color-text" id="all-tab" data-toggle="tab" href="#all" role="tab"
+              aria-controls="all" aria-selected="true">
+              <i class="icon-all pr-2"></i>
+              <span>{{ 'ourWork.all' | translate }}</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-16 px-5 black-color-text" id="erp-tab" data-toggle="tab" href="#erp" role="tab"
+              aria-controls="erp" aria-selected="false">
+              <i class="icon-ERP pr-2"></i>
+              <span>{{ 'services.ERPSystems' | translate }}</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-16 px-5 black-color-text" id="mobile-tab" data-toggle="tab" href="#mobile" role="tab"
+              aria-controls="mobile" aria-selected="false">
+              <i class="icon-mobileApps pr-2"></i>
+              <span>{{ 'ourWork.MobileApps' | translate }}</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-16 px-5 black-color-text" id="website-tab" data-toggle="tab" href="#website" role="tab"
+              aria-controls="website" aria-selected="false">
+              <i class="icon-websites pr-2"></i>
+              <span>{{ 'ourWork.Websites' | translate }}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-6 col-12"></div>
+    </div> -->
+<!-- Horizontal tabs -->
+<!-- <ul class="nav nav-tabs border-0 d-inline-flex pb-4" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active fs-16 px-5 black-color-text" id="all-tab" data-toggle="tab" href="#all" role="tab"
+          aria-controls="all" aria-selected="true">
+          <i class="icon-all pr-2"></i>
+          <span>{{ 'ourWork.all' | translate }}</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-16 px-5 black-color-text" id="erp-tab" data-toggle="tab" href="#erp" role="tab"
+          aria-controls="erp" aria-selected="false">
+          <i class="icon-ERP pr-2"></i>
+          <span>{{ 'services.ERPSystems' | translate }}</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-16 px-5 black-color-text" id="mobile-tab" data-toggle="tab" href="#mobile" role="tab"
+          aria-controls="mobile" aria-selected="false">
+          <i class="icon-mobileApps pr-2"></i>
+          <span>{{ 'ourWork.MobileApps' | translate }}</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fs-16 px-5 black-color-text" id="website-tab" data-toggle="tab" href="#website" role="tab"
+          aria-controls="website" aria-selected="false">
+          <i class="icon-websites pr-2"></i>
+          <span>{{ 'ourWork.Websites' | translate }}</span>
+        </a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+        <div id="work" class="carousel slide w-100  position-relative" data-ride="carousel">
+          <div class="carousel-inner w-100" role="listbox">
+            <div class="carousel-item active">
+              <div class="col-12">
+                <div class="card card-body p-0 border-0">
+                  <div class="px-2">
+                    <div class="row mx-0">
+                      <div class="col-lg-6 col-md-6 col-12 px-0 primary-color-bg w-100 text-white service-content ">
+                        <div class="p-1">
+                          <h5 class="text-left px-2">{{ 'ourWork.ewanErp' | translate }}</h5>
+                          <p class="fs-12 text-left px-2 w-75">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book.</p>
+                          <p class="fs-12 text-left px-2 w-70 pb-4">It has survived not only five centuries, but also
+                            the leap
+                            into electronic
+                            typesetting, remaining essentially unchanged. It was popularised
+                            in the 1960s with the release of Letraset sheets containing Lorem
+                            Ipsum passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-12 px-0 service-image">
+                        <img src="assets/images/all.png" alt="" class="w-100 h-100">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <a class="carousel-control-prev w-auto left-arrow" href="#work" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next w-auto  right-arrow" href="#work" role="button" data-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div> -->
+<!-- </div> -->
+<!-- </section> -->
+
+<!-- contact -->
+<section class="contact anime" id="contact">
+  <!-- svg animations -->
+  <!-- <div class="cube">
+  </div>
+  <div class="cube">
+  </div>
+  <div class="cube">
+  </div>
+  <div class="cube">
+  </div>
+  <div class="cube">
+  </div>
+  <div class="cube">
+  </div> -->
+  <div class="container text-center px-0 pt-3">
+    <h4 class="font-weight-bold mb-0 primary-color-text">{{ 'header.contact' | translate }}</h4>
+    <h1 class="it-cores-overlay font-weight-bold mb-0">IT-Cores</h1>
+    <p class="fs-14">{{ 'ourWork.ourWorkDesc' | translate }}</p>
+    <div class="row mx-0 py-3">
+      <div class="col-lg-7">
+        <h5 class="mb-0 contact-title">{{ 'contact.contactDesc' | translate }}</h5>
+        <hr>
+        <div class="media py-3">
+          <a class="d-flex py-3" href="#">
+            <img src="assets/images/Logo.png" alt="" width="150">
+          </a>
+          <div class="media-body mx-3">
+            <p class="fs-13 gray-text">{{ 'contact.contactDesc1' | translate }}</p>
+            <p class="fs-13 gray-text">{{ 'contact.contactDesc2' | translate }}</p>
+          </div>
+        </div>
+        <div class="row mx-0">
+          <div class="col-lg-5 contact-data wow fadeInLeft">
+            <div class="text-left py-2 d-flex align-items-center">
+              <div>
+                <i class="fs-20 mx-2 la la-map-marked primary-color-text"></i>
+              </div>
+              <span class="fs-14 gray-text">{{ 'footer.addressDesc' | translate }}</span>
+            </div>
+            <div class="text-left py-2 d-flex align-items-center">
+              <div>
+                <i class="fs-20 mx-2 la la-phone primary-color-text"></i>
+              </div>
+              <span class="fs-14 gray-text">{{ 'footer.PhoneNum' | translate }}</span>
+            </div>
+            <div class="text-left py-2 d-flex align-items-center">
+              <div>
+                <i class="fs-20 mx-2 la la-envelope primary-color-text"></i>
+              </div>
+              <span class="fs-14 gray-text">info@it-cores.com</span>
+            </div>
+          </div>
+          <div class="col-lg-7 mb-3">
+            <img src="assets/images/map.PNG" alt="" class="w-100 h-100">
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-5">
+        <div class="contact-card py-4 px-3 wow zoomIn">
+          <h5 class="text-white mb-3">{{ 'contact.quote' | translate }}</h5>
+          <form class="form w-75 mx-auto">
+            <div class="form-group mb-2">
+              <input type="text" class="form-control fs-13" aria-describedby="helpId"
+                placeholder="{{ 'contact.name' | translate }}">
+            </div>
+            <div class="form-group mb-2">
+              <input type="text" class="form-control fs-13" aria-describedby="helpId"
+                placeholder="{{ 'contact.email' | translate }}">
+            </div>
+            <div class="form-group mb-2">
+              <input type="text" class="form-control fs-13" aria-describedby="helpId"
+                placeholder="{{ 'contact.phone' | translate }}">
+            </div>
+            <div class="form-group mb-2">
+              <textarea class="form-control" rows="3" placeholder="{{ 'contact.message' | translate }}"></textarea>
+            </div>
+            <button class="btn fs-14 my-2">{{'contact.sendBtn' | translate }}</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- testimonials -->
+<section class="testimonials" data--duration="2s" data--delay="0.5s" id="testimonials">
+  <!-- <div class="bubble x1"></div>
+  <div class="bubble x2"></div>
+  <div class="bubble x3"></div>
+  <div class="bubble x4"></div>
+  <div class="bubble x5"></div>
+  <div class="bubble x6"></div>
+  <div class="bubble x7"></div>
+  <div class="bubble x8"></div>
+  <div class="bubble x9"></div>
+  <div class="bubble x10"></div> -->
+
+  <div class="container text-center position-relative">
+    <h4 class="font-weight-bold primary-color-text mb-0">{{'testimonials.testimonials' | translate }}</h4>
+    <h1 class="it-cores-overlay font-weight-bold mb-0">IT-Cores</h1>
+    <p class="fs-14">{{'testimonials.testimonialsDesc' | translate }}</p>
+
+    <div class="row mx-0">
+      <div class="col-lg-7 col-md-6 col-12 mb-3 mt-5">
+        <img src="assets/images/mobile.png" alt="" class="wow fadeInLeft" width="300" data--duration="4s"
+          data--delay="0.5s">
+        <img src="assets/images/desktop.png" alt="" class="desktop-img wow fadeInRight" width="300" data--duration="4s"
+          data--delay="0.5s">
+        <img src="assets/images/cards.png" alt="" class="cards-img wow fadeInUp" width="400" data--duration="4s"
+          data--delay="0.5s">
+      </div>
+      <div class="offset-lg-2"></div>
+      <div class="col-lg-3 col-md-6 col-12 testi-card">
+        <div id="carouselExampleIndicators" class="carousel slide pt-3" data-ride="carousel">
+          <ol class="carousel-indicators mb-0 pr-0">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <i class="icon-team primary-color-text py-3" style="font-size: 55px;"></i>
+              <p class="fs-14 py-2">"{{'testimonials.testimonialsDesc1' | translate }}"</p>
+              <h6 class="font-weight-bold">{{'testimonials.testimonialsName' | translate }}</h6>
+              <span class="fs-12 mb-0 d-block">{{'testimonials.testimonialsAddress' | translate }}</span>
+              <i class="la la-quote-left primary-color-text py-3" style="font-size: 30px;"></i>
+            </div>
+            <div class="carousel-item">
+              <i class="icon-onTime primary-color-text py-3" style="font-size: 55px;"></i>
+              <p class="fs-14 py-2">"{{'testimonials.testimonialsDesc2' | translate }}"</p>
+              <h6 class="font-weight-bold">{{'testimonials.testimonialsName' | translate }}</h6>
+              <span class="fs-12 mb-0 d-block">{{'testimonials.testimonialsAddress' | translate }}</span>
+              <i class="la la-quote-left primary-color-text py-3" style="font-size: 30px;"></i>
+            </div>
+            <div class="carousel-item">
+              <i class="icon-Knowledge primary-color-text py-3" style="font-size: 55px;"></i>
+              <p class="fs-14 py-2">"{{'testimonials.testimonialsDesc2' | translate }}"</p>
+              <h6 class="font-weight-bold">{{'testimonials.testimonialsName' | translate }}</h6>
+              <span class="fs-12 mb-0 d-block">{{'testimonials.testimonialsAddress' | translate }}</span>
+              <i class="la la-quote-left primary-color-text py-3" style="font-size: 30px;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

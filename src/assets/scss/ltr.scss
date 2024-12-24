@@ -1,0 +1,16 @@
+$text-direction: ltr !default;
+$clip:polygon(0 0, 70% 0, 100% 100%, 0 100%);
+$clip-form: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+$clip-contact: polygon(45% 0, 100% 0, 100% 100%, 0% 100%);
+$clip-about:  polygon(32% 0, 100% 0, 100% 100%, 0% 100%);
+$clip-about-shape: polygon(0% 0, 100% 0, 45% 100%, 0% 100%);
+$rotate:rotate(180deg);
+
+body ,html,header,footer {
+  text-align: left;
+  direction: ltr;
+}
+
+@import "direction-controller";
+
+@import "../theme/style.scss";

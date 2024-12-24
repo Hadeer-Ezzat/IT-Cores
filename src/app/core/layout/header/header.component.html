@@ -1,0 +1,56 @@
+<header class="">
+
+  <nav class="navbar navbar-expand-lg menu navbar-dark fixed-top">
+    <div class="container px-0">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/Logo.png" alt="" width="140">
+      </a>
+      <!-- Menu Toggle -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navigation menu -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <ul class="navbar-nav mx-auto pr-0">
+          <li class="nav-item active">
+            <a class="nav-link px-xl-3 text-white position-relative" href="#home">{{ 'header.home' | translate }}<span
+                class="sr-only">(current)</span></a>
+            <!-- <span class="active-link"></span> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-xl-3 text-white position-relative" href="#about">{{ 'header.about' | translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-xl-3 text-white position-relative"
+              href="#services">{{ 'header.services' | translate }}</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link px-xl-3 text-white position-relative"
+              href="#our-work">{{ 'header.ourWork' | translate }}</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link px-xl-3 text-white position-relative"
+              href="#testimonials">{{ 'header.testimonials' | translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-xl-3 text-white position-relative"
+              href="#contact">{{ 'header.contact' | translate }}</a>
+          </li>
+        </ul>
+
+        <div class="lang">
+          <ul class="list-unstyled mb-0 pr-0">
+            <li class="nav-item">
+              <a (click)="changeLanguage()" class="nav-link py-2 d-flex" style="cursor: pointer;">
+                <i class="la la-globe primary-color-text fs-20 align-middle mr-1"></i>
+                <span class="text-white fs-12">{{ translate.currentLang === 'ar' ? 'English' : 'عربي' }}</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
